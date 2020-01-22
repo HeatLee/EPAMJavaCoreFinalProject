@@ -1,0 +1,3 @@
+Expense|1|important transaction|22-18-2020 12:18:27|10.0|TAX
+Income|2|gift|22-20-2020 12:20:12|100.0|PAYMENT
+Expense|3|buy some cookies|22-34-2020 12:34:09|10.0|FOOD
