@@ -2,7 +2,7 @@ package by.epam.javatr.markevich.finances.view;
 
 import by.epam.javatr.markevich.finances.controller.Controller;
 
-public class Runner {
+public class    Runner {
     public static void main(String[] args){
         Controller controller = new Controller();
 

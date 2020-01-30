@@ -12,7 +12,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class FileTransactionDAOImpl implements TransactionDAO {
-    private static final String FULL_FILE_PATH = "D:/JavaEPAM/FinalProject/resource/transaction.txt";
+    private static final String FULL_FILE_PATH = "./resource/transaction.txt";
     private static final String EMPTY_STRING = "";
 
 
