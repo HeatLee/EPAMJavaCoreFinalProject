@@ -17,8 +17,7 @@ public class Converter {
     private static final String EXPENSE_TYPENAME = "Expense";
     private static final String INCOME_TYPENAME = "Income";
 
-    public static String convertToString(Transaction transaction)
-            throws InvalidParameterException, InvalidFieldException {
+    public static String convertToString(Transaction transaction) throws InvalidParameterException, InvalidFieldException {
         if (transaction == null) {
             throw new InvalidParameterException("Incoming parameter has empty address");
         }
@@ -29,7 +28,8 @@ public class Converter {
         return pars(transaction);
     }
 
-    public static Transaction parseToObject(String data) throws InvalidParameterException, InvalidFieldException {
+    public static Transaction parseToObject(String data)
+            throws InvalidParameterException, InvalidFieldException {
         if (data == null) {
             throw new InvalidParameterException("Incoming parameter has empty address");
         }
